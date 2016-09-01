@@ -17,6 +17,7 @@
     <script src="https://www.google.com/events/io/js/vendor/modernizr/modernizr.js"></script>
     </head>
   <body>
+    <h4><p id="TimerTime" style="text-align:center"></p></h4>
     <div class="wrapper">
       <section class="section -countdown">
         <div class="row -full text-center">
@@ -279,6 +280,10 @@
         </div>
       </section>
     </div>
+    <script>
+      var ThisIsTheEndDate = new Date("October 24, 2016 9:00:00 am PDT");
+      document.getElementById("TimerTime").html(ThisIsTheEndDate);
+    </script>
     <script src="javascripts/libs.min.js"></script>
     <script src="javascripts/site.min.js"></script>
     <script>
